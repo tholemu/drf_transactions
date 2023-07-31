@@ -1,4 +1,7 @@
 # Setup
+
+## From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps.
+
 #### Create & Activate Python3 virtual environment
 ```
 python3 -m venv env
