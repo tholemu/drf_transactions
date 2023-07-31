@@ -1,3 +1,9 @@
+# About
+This project contains a simple Django REST framework web server which allows for tracking of financial trading transactions. In its simplest form, it will ingest a payload containing decimal parameters of "price" and "quantity", then calculate the total transaction cost and add it to a database.
+
+The project could be enhanced with additional parameters of "purchased timestamp" and "symbol", indicating when the order was originally executed and upon which asset.
+
+
 # Setup
 
 ## From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps.
