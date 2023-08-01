@@ -1,4 +1,4 @@
-# About
+# Intro
 This project contains a simple Django REST framework web server which allows for tracking of financial trading transactions. In its simplest form, it will ingest a payload containing decimal parameters of "price", "quantity", and "symbol", then calculate the total transaction cost and add it to a database.
 
 The project could be enhanced with an additional parameter of "purchased timestamp", indicating when the order was originally executed.
