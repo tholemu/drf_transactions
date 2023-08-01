@@ -37,7 +37,7 @@ This can be modified by specifying [address]:[port] following the 'runserver' pa
 python manage.py runserver 0.0.0.0:8443
 ```
 
-> Your Transactions webserver should now be running on 127.0.0.1:8000
+> Your Transactions webserver should now be running on 127.0.0.1:8000, unless a custom port was specified.
 
 # Testing
 #### Example POST
