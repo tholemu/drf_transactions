@@ -45,7 +45,8 @@ python manage.py runserver 0.0.0.0:8443
 POST http://127.0.0.1:8000/transactions/
 {
     "price": "35000.00",
-    "quantity": ".000015"
+    "quantity": ".000015",
+    "symbol": "btc"
 }
 ```
 
