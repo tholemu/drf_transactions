@@ -1,5 +1,5 @@
 # Intro
-This project contains a simple Django REST framework web server which allows for tracking of financial trading transactions. In its simplest form, it will ingest a payload containing decimal parameters of "price", "quantity", and string parameter of "symbol", then calculate the total transaction cost and add it to a database.
+This project contains a simple Django REST framework webserver which allows for tracking of financial trading transactions. In its simplest form, it will ingest a payload containing decimal parameters of "price", "quantity", and string parameter of "symbol", then calculate the total transaction cost and add it to a database.
 
 The project could be enhanced with an additional parameter of "purchased timestamp", indicating when the order was originally executed.
 
@@ -27,17 +27,17 @@ python manage.py makemigrations transactions
 python manage.py migrate transactions
 ```
 
-#### Run Development Web Server
-The following command will start the Django development web server, which runs on 0.0.0.0:8000 by default.
+#### Run Development Webserver
+The following command will start the Django development webserver, which listens on 0.0.0.0:8000 by default.
 ```
 python manage.py runserver
 ```
-This can be modified by specifying [address]:[port] following the 'runserver' parameter. For example, the following will start the web server on port 8443.
+This can be modified by specifying [address]:[port] following the 'runserver' parameter. For example, the following will start the webserver and listen on port 8443.
 ```
 python manage.py runserver 0.0.0.0:8443
 ```
 
-> Your Transactions webserver should now be running on 127.0.0.1:8000, unless a custom port was specified.
+> Your Transactions webserver should now be listening on 127.0.0.1:8000, unless a custom port was specified.
 
 # Testing
 #### Example POST
