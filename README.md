@@ -6,7 +6,7 @@ The project could be enhanced with an additional parameter of "purchased timesta
 
 # Setup
 
-## From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps.
+### From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps.
 
 #### Create & Activate Python3 virtual environment
 ```
@@ -33,6 +33,7 @@ python manage.py runserver
 
 ### Your Transactions webserver should now be running on 127.0.0.1:8000
 
+# Testing
 #### Example POST
 ```
 POST http://127.0.0.1:8000/transactions/
@@ -43,4 +44,6 @@ POST http://127.0.0.1:8000/transactions/
 ```
 
 #### Example List all Transactions
-```GET http://127.0.0.1:8000/transactions```
+```
+GET http://127.0.0.1:8000/transactions/
+```
