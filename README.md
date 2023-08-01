@@ -6,7 +6,7 @@ The project could be enhanced with an additional parameter of "purchased timesta
 
 # Setup
 
-### From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps.
+> __Note__ From within the 'drf_transactions' project folder containing 'manage.py', perform the following steps. 
 
 #### Create & Activate Python3 virtual environment
 ```
