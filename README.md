@@ -31,7 +31,7 @@ python manage.py migrate transactions
 python manage.py runserver
 ```
 
-### Your Transactions webserver should now be running on 127.0.0.1:8000
+> Your Transactions webserver should now be running on 127.0.0.1:8000
 
 # Testing
 #### Example POST
